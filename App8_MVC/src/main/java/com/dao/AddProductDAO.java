@@ -22,7 +22,6 @@ public class AddProductDAO
 			
 			rowCount = pstmt.executeUpdate();
 			
-			
 		}
 		catch(Exception e)
 		{
