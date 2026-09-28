@@ -20,8 +20,7 @@ public class AddProductDAO
 			pstmt.setString(4, pb.getProduct_price());
 			pstmt.setString(5, pb.getProduct_quantity());
 			
-			rowCount = pstmt.executeUpdate();
-			
+			rowCount = pstmt.executeUpdate();			
 		}
 		catch(Exception e)
 		{
